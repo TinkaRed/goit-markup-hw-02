@@ -5,15 +5,10 @@
     <meta charset="UTF-8">
     <title>WebStudio</title>
 <!-- #region fonts -->
-    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <!-- нормалізатор шрифта -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <!-- #endregion fonts -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -21,11 +16,11 @@
 <!-- #region header -->
 <header>
     <nav>
-        <a class="logo-header" href="./index.html"><span>Web</span>Studio</a>
+        <a class="logo-header" href="./index.html">Web<span>Studio</span></a>
         <ul>
-            <li><a class="header-titles" href="#">Studio</a></li>
-            <li><a class="header-titles" href="#">Portfolio</a></li>
-            <li><a class="header-titles" href="#">Contacts</a></li>
+            <li><a class="header-titles" href="./index.html">Studio</a></li>
+            <li><a class="header-titles" href="">Portfolio</a></li>
+            <li><a class="header-titles" href="">Contacts</a></li>
         </ul>
     </nav>
         <address>
@@ -39,7 +34,7 @@
 <main>
 <!-- #region hero banner -->
     <section class="hero-banner">
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-button">Order Service</button>
     </section>
 <!-- #endregion hero banner -->
@@ -48,26 +43,26 @@
         <h2>Advantages</h2>
         <ul>
             <li>
-                <h3>Strategy</h3>
-                <p>
+                <h3 class="list-title">Strategy</h3>
+                <p class="paragraph">
                 Our goal is to identify the business problem to walk away with the perfect and creative solution.
                 </p>
             </li>
             <li>
-                <h3>Punctuality</h3>
+                <h3 class="list-title">Punctuality</h3>
                 <p>
                 Bring the key message to the brand's audience for the best price within the shortest possible time.
                 </p>
             </li>
             <li>
-                <h3>Diligence</h3>
-                <p>
+                <h3 class="list-title">Diligence</h3>
+                <p class="paragraph">
                 Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
                 </p>
             </li>
             <li>
-                <h3>Technologies</h3>
-                <p>
+                <h3 class="list-title">Technologies</h3>
+                <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
                 </p>
             </li>
@@ -76,64 +71,67 @@
 <!--#endregion section 1 -->
 <!--#region section 2 - 'our team' -->
     <section class="our-team">
-        <h2>Our Team</h2>
+        <h2 class="section-title">Our Team</h2>
         <ul>
             <li class="our-team-cards">
                 <img src="./images/mark_guerrero.jpg" width="264" height="260" alt="Mark Guerrero">
-                <h3>Mark Guerrero</h3>
+                <h3 class="list-title">Mark Guerrero</h3>
                 <p>Product Designer</p>
             </li>
             <li class="our-team-cards">
                 <img src="./images/tom_ford.jpg" width="264" height="260" alt="Tom Ford">
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <h3 class="list-title">Tom Ford</h3>
+                <p class="paragraph">Frontend Developer</p>
             </li>
             <li class="our-team-cards">
                 <img src="./images/camila_garcia.jpg" width="264" height="260" alt="Camila Garcia">
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
+                <h3 class="list-title">Camila Garcia</h3>
+                <p class="paragraph">Marketing</p>
             </li>
             <li class="our-team-cards">
                 <img src="./images/daniel_wilson.jpg" width="264" height="260" alt="Daniel Wilson">
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
+                <h3 class="list-title">Daniel Wilson</h3>
+                <p class="paragraph">UI Designer</p>
             </li>
         </ul>
     </section>
 <!--#endregion section 2 - 'our team' -->
 <!--#region section 3 - 'our portfolio' -->
 <section>
-    <h2>Our Portfolio</h2>
+    <h2 class="section-title">Our Portfolio</h2>
     <ul>
-        <img src="./images/banking-app.jpg" width="264" height="260" alt="Banking App">
-        <h3>Banking App</h3>
-        <p>App</p>
-    <li>
-        <img src="./images/cashless-payment.jpg" width="264" height="260" alt="Cashless Payment">
-        <h3>Cashless Payment</h3>
-        <p>Marketing</p>
-    </li>
-    <li>
-        <img src="./images/meditation-app.jpg" width="264" height="260" alt="Meditation App">
-        <h3>Meditation App</h3>
-        <p>App</p>
-    </li>
-    <li>
-        <img src="./images/taxi-service.jpg" width="264" height="260" alt="Taxi Service">
-        <h3>Taxi Service</h3>
-        <p>Marketing</p>
-    </li>
-    <li>
-        <img src="./images/screen-illustrations.jpg" width="264" height="260" alt="Screen Illustrations">
-        <h3>Screen Illustrations</h3>
-        <p>Design</p>
-    </li>
-    <li>
-        <img src="./images/online-courses.jpg" width="264" height="260" alt="Online Courses">
-        <h3>Online Courses</h3>
-        <p>Marketing</p>
-    </li>
+        <li>
+            <img src="./images/banking-app.jpg" width="360" height="300" alt="Banking App">
+            <h3 class="list-title">Banking App</h3>
+            <p class="paragraph">App</p>
+        </li>
+        <li>
+            <img src="./images/cashless-payment.jpg" width="360" height="300" alt="Cashless Payment">
+            <h3 class="list-title">Cashless Payment</h3>
+            <p class="paragraph">Marketing</p>
+        </li>
+        <li>
+            <img src="./images/meditation-app.jpg" width="360" height="300" alt="Meditation App">
+            <h3 class="list-title">Meditation App</h3>
+            <p class="paragraph">App</p>
+        </li>
+        <li>
+            <img src="./images/taxi-service.jpg" width="360" height="300" alt="Taxi Service">
+            <h3 class="list-title">Taxi Service</h3>
+            <p class="paragraph">Marketing</p>
+        </li>
+        <li>
+            <img src="./images/screen-illustrations.jpg" width="360" height="300" alt="Screen Illustrations">
+            <h3 class="list-title">Screen Illustrations</h3>
+            <p class="paragraph">Design</p>
+        </li>
+        <li>
+            <img src="./images/online-courses.jpg" width="360" height="300" alt="Online Courses">
+            <h3 class="list-title">Online Courses</h3>
+            <p class="paragraph">Marketing</p>
+        </li>
 </ul>
+</section>
 <!--#endregion section 3 - 'our portfolio' -->
 </main>
 <!--#region the footer -->
