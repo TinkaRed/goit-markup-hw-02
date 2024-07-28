@@ -104,6 +104,7 @@ p {
     padding: 16px 32px;
     color: #fff;
     font-family: inherit;
+    cursor: pointer;
 }
 
 .hero-button:hover,
